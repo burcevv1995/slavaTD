@@ -24,6 +24,20 @@ window/size/initial_position_type=0
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 
+[editor]
+
+version_control/plugin_name="GitPlugin"
+version_control/autoload_on_startup=true
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/github_to_itch/plugin.cfg")
+
+[github_to_itch]
+
+config/itch_username=""
+config/itch_project_name=""
+
 [rendering]
 
 renderer/rendering_method.mobile="gl_compatibility"
