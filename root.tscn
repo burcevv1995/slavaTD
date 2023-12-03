@@ -172,7 +172,7 @@ position = Vector2(1024, -0.000488281)
 texture = ExtResource("2_cxvhc")
 
 [node name="Portal" type="Sprite2D" parent="."]
-position = Vector2(1926, 380)
+position = Vector2(1865, 381)
 scale = Vector2(0.215172, 0.215172)
 texture = ExtResource("6_3jwcu")
 
@@ -182,6 +182,7 @@ script = ExtResource("4_llarc")
 mob_scene = ExtResource("4_u2005")
 
 [node name="PathFollow2D" parent="Path_for_enemy" instance=ExtResource("4_u2005")]
+position = Vector2(40, 827)
 
 [node name="Timer" type="Timer" parent="Path_for_enemy"]
 autostart = true
