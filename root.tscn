@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://bs253t0kggwr3"]
+[gd_scene load_steps=8 format=3 uid="uid://bs253t0kggwr3"]
 
 [ext_resource type="Texture2D" uid="uid://c66h1d667b7fe" path="res://Resourses/artificial-green-grass-close-up_23-2147625864.jpg" id="1_8om20"]
 [ext_resource type="Script" path="res://root.gd" id="1_dr40b"]
 [ext_resource type="Texture2D" uid="uid://ctembehyollv" path="res://Resourses/1676558526_catherineasquithgallery-com-p-kirpich-zelenii-fon-25.jpg" id="2_cxvhc"]
 [ext_resource type="Script" path="res://Path_for_enemy.gd" id="4_llarc"]
 [ext_resource type="PackedScene" uid="uid://wywuwf32rp55" path="res://path_follow_2d.tscn" id="4_u2005"]
+[ext_resource type="Texture2D" uid="uid://dbf02yyg4afus" path="res://Resourses/klipartz.com.png" id="6_3jwcu"]
 
 [sub_resource type="Curve2D" id="Curve2D_803ok"]
 bake_interval = 0.01
@@ -169,6 +170,11 @@ texture = ExtResource("2_cxvhc")
 [node name="1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25" type="Sprite2D" parent="Road/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25/1676558526Catherineasquithgallery-com-p-kirpich-zelenii-fon-25"]
 position = Vector2(1024, -0.000488281)
 texture = ExtResource("2_cxvhc")
+
+[node name="Portal" type="Sprite2D" parent="."]
+position = Vector2(1926, 380)
+scale = Vector2(0.215172, 0.215172)
+texture = ExtResource("6_3jwcu")
 
 [node name="Path_for_enemy" type="Path2D" parent="."]
 curve = SubResource("Curve2D_803ok")
