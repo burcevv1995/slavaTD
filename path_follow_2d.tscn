@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://wywuwf32rp55"]
+
+[ext_resource type="Script" path="res://PathFollow2D.gd" id="1_xwgbb"]
+[ext_resource type="PackedScene" uid="uid://b3pocvvfr8gvs" path="res://enemy_slime.tscn" id="2_oswvx"]
+
+[node name="PathFollow2D" type="PathFollow2D"]
+process_physics_priority = 1
+position = Vector2(21, 827)
+rotation = 0.00961509
+loop = false
+script = ExtResource("1_xwgbb")
+
+[node name="Enemy_Slime" parent="." instance=ExtResource("2_oswvx")]
+position = Vector2(-17.355, -36.8349)
+rotation = -0.00961509
